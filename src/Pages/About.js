@@ -107,7 +107,7 @@ export default function About() {
   <ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
       {files.map((file) => (
         <li key={file.source} className="relative">
-          <div className="group block w-full aspect-w-10 aspect-h-16 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+          <div className="group block w-full aspect-w-10 aspect-h-16 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-blue-500 overflow-hidden">
             <img src={file.source} alt="" className="object-cover pointer-events-none " />
             
           </div>
@@ -144,7 +144,7 @@ export default function About() {
                     <div className="space-y-4">
                       <div className="text-lg leading-6 font-medium space-y-1">
                         <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
+                        <p className="text-blue-600">{person.role}</p>
                       </div>
                       <div className="text-lg">
                         <p className="text-gray-500">{person.bio}</p>
@@ -207,7 +207,7 @@ export default function About() {
                     type="email"
                     name="email"
                     id="email"
-                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 border-gray-300"
+                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:flex-1 border-gray-300"
                     placeholder="Enter your email"
                   />
                   <button
@@ -248,7 +248,7 @@ export default function About() {
       <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
         <div className="lg:col-start-2 lg:pl-8">
           <div className=" lg:max-w-lg ">
-            <h2 className="leading-6 text-indigo-600 font-semibold">A Letter</h2>
+            <h2 className="leading-6 text-blue-600 font-semibold">A Letter</h2>
             <h3 className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">from Elliot Kallen</h3>
             <p className="mt-8 text-lg text-gray-500">
             A Brighter Day, the 501(c)(3) Charity which Unites Stress and Depression Resources with Teenagers, will have reached thousands of teens in only our sixth year. Sadly, the motivation for this charity came from the suicide of my son, Jake, while attending the University of Montana in 2015. However, we are making a difference in the lives of teenagers and I have received many cards form teens thanking us for savings their lives.

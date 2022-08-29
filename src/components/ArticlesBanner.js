@@ -43,7 +43,7 @@ import { useEffect, useState } from "react"
                 </div>
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
+                    <p className="text-sm font-medium text-blue-600">
                       <a href={post.link} className="hover:underline">
                         {post.yoast_head_json.og_type}
                       </a>
